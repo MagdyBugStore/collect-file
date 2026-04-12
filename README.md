@@ -20,7 +20,7 @@
    function bundle-react { python "C:\DevToolbox\for-react.py" }
    function bundle-node { python "C:\DevToolbox\for-node.py" }
    function bundle-flutter { python "C:\DevToolbox\for-flutter.py" }
-   function get-tree { python "C:\DevToolbox\get-root-file.py" }
+   function get-tree { python "C:\DevToolbox\get-tree.py" }
    
    # اختصارات سريعة
    Set-Alias br bundle-react
@@ -41,7 +41,7 @@
    alias br='python3 /path/to/DevToolbox/for-react.py'
    alias bn='python3 /path/to/DevToolbox/for-node.py'
    alias bf='python3 /path/to/DevToolbox/for-flutter.py'
-   alias gt='python3 /path/to/DevToolbox/get-root-file.py'
+   alias gt='python3 /path/to/DevToolbox/get-tree.py'
    ```
 
 ---
