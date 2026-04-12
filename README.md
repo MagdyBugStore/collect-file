@@ -1,5 +1,3 @@
----
-
 # 🚀 Code Bundler & Project Tree Scripts
 
 مجموعة من سكربتات Python المصممة لمشاريع (React, Node.js, Flutter) لتجميع الأكواد وتوليد هيكلية المشروع في ملفات نصية سهلة القراءة.
