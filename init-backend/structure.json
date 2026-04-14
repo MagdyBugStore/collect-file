@@ -1,0 +1,33 @@
+{
+  "directories": [
+    "src/config",
+    "src/controllers",
+    "src/middleware",
+    "src/models",
+    "src/routes",
+    "src/services",
+    "src/utils"
+  ],
+  "files": [
+    { "path": "package.json", "template": "package.json.tmpl" },
+    { "path": "tsconfig.json", "template": "tsconfig.json.tmpl" },
+    { "path": ".gitignore", "template": "gitignore.tmpl" },
+    { "path": ".env.example", "template": "env.example.tmpl" },
+    { "path": "README.md", "template": "README.md.tmpl" },
+    { "path": "src/server.ts", "template": "server.ts.tmpl" },
+    { "path": "src/app.ts", "template": "app.ts.tmpl" },
+    { "path": "src/config/db.ts", "template": "config_db.ts.tmpl" },
+    { "path": "src/config/env.ts", "template": "config_env.ts.tmpl" },
+    { "path": "src/models/User.ts", "template": "User.ts.tmpl" },
+    { "path": "src/services/authService.ts", "template": "authService.ts.tmpl" },
+    { "path": "src/controllers/authController.ts", "template": "authController.ts.tmpl" },
+    { "path": "src/controllers/userController.ts", "template": "userController.ts.tmpl" },
+    { "path": "src/middleware/auth.ts", "template": "middleware_auth.ts.tmpl" },
+    { "path": "src/middleware/errorHandler.ts", "template": "errorHandler.ts.tmpl" },
+    { "path": "src/routes/authRoutes.ts", "template": "authRoutes.ts.tmpl" },
+    { "path": "src/routes/userRoutes.ts", "template": "userRoutes.ts.tmpl" },
+    { "path": "src/routes/index.ts", "template": "routes_index.ts.tmpl" },
+    { "path": "src/utils/logger.ts", "template": "logger.ts.tmpl" }
+  ],
+  "static": []
+}

@@ -1,0 +1,23 @@
+# Express TypeScript MongoDB Backend
+
+## Setup
+1. Copy `.env.example` to `.env` and fill in your MongoDB URI and JWT secret.
+2. Run `npm install`
+3. Run `npm run dev`
+
+## API Endpoints
+- POST `/api/auth/register` - Register new user
+- POST `/api/auth/login` - Login user
+- GET `/api/users/profile` - Get user profile (requires token)
+
+## Structure
+src/
+├── config/ # Database connection, environment variables
+├── controllers/ # Request handlers
+├── middleware/ # Auth, error handling
+├── models/ # Mongoose models
+├── routes/ # API routes
+├── services/ # Business logic
+├── utils/ # Helpers, logger
+├── app.ts # Express app setup
+└── server.ts # Entry point
